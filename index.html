@@ -29,11 +29,13 @@
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#leadership">Leadership</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#awards">Awards</a></li>
-            <li><a href="#leadership">Leadership</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li class="nav-download"><a href="Huzaifa_Bhavnagri_Resume.pdf" download target="_blank" title="Download Resume"><i class="fas fa-download"></i></a></li>
+            <li class="nav-linkedin"><a href="https://www.linkedin.com/in/huzaifabhavnagri/" target="_blank" title="LinkedIn Profile"><i class="fab fa-linkedin"></i></a></li>
         </ul>
     </nav>
 
@@ -73,7 +75,7 @@
         <div class="hero-buttons">
             <a href="#experience" class="btn btn-primary">View Experience</a>
             <a href="#contact" class="btn btn-outline">Get in Touch</a>
-            <a href="Huzaifa_Bhavnagri_Resume.pdf" download class="btn btn-outline">Download Resume</a>
+            <a href="Huzaifa_Bhavnagri_Resume.pdf" target="_blank" download class="btn btn-outline">Download Resume</a>
             <a href="https://www.linkedin.com/in/huzaifabhavnagri/" target="_blank" class="btn btn-outline">LinkedIn</a>
         </div>
         
@@ -107,14 +109,78 @@
             <!-- Technical Skills Section -->
             <h2 style="margin-top: 40px;">Technical Skills</h2>
             <div class="technical-skills">
-                <div class="skill-item"><strong>Languages:</strong> Java, SQL, JavaScript</div>
-                <div class="skill-item"><strong>Frameworks:</strong> Spring Boot, Hibernate, JPA, Jersey, Angular</div>
-                <div class="skill-item"><strong>Cloud & AWS:</strong> EC2, Lambda, S3, SQS, SNS, EMR, CloudWatch, Step Functions, Aurora, DynamoDB, Docker</div>
-                <div class="skill-item"><strong>Databases:</strong> PostgreSQL, MySQL, Oracle, MongoDB, DynamoDB, Aurora</div>
-                <div class="skill-item"><strong>CI/CD & Monitoring:</strong> Jenkins, GitHub Actions, SonarQube, CloudWatch</div>
-                <div class="skill-item"><strong>Messaging:</strong> Kafka, RabbitMQ, RESTful APIs, Webhooks</div>
-                <div class="skill-item"><strong>AI & Agentic:</strong> AWS Bedrock, Agentic AI, RAG, MCP, LLM Integration, GitHub Copilot, Cursor AI, Claude Code</div>
-                <div class="skill-item"><strong>Tools:</strong> IntelliJ, VS Code, Postman, JIRA, ServiceNow</div>
+                <div class="skill-row">
+                    <div class="skill-category">Programming Languages</div>
+                    <div class="skill-list">Java, SQL</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">Frontend Technologies</div>
+                    <div class="skill-list">Angular, JavaScript</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">Backend & Frameworks</div>
+                    <div class="skill-list">Spring Boot, Hibernate, JPA, Jersey, REST APIs, GraphQL, Microservices</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">Data Engineering & Streaming</div>
+                    <div class="skill-list">Apache Kafka, RabbitMQ, Spark, ETL Pipelines</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">Cloud & Infrastructure</div>
+                    <div class="skill-list">AWS (EC2, S3, Lambda, SQS, SNS, EMR, Step Functions, CloudWatch), Kubernetes, Docker</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">Databases</div>
+                    <div class="skill-list">PostgreSQL, MySQL, Oracle, MongoDB, DynamoDB, Aurora</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">CI/CD & DevOps</div>
+                    <div class="skill-list">Jenkins, TeamCity, GitHub Actions</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">AI & Modern Technologies</div>
+                    <div class="skill-list">AWS Bedrock, RAG (Retrieval-Augmented Generation), Agentic AI, LLM Integration, GitHub Copilot</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">Tools & Platforms</div>
+                    <div class="skill-list">IntelliJ, VS Code, Maven, Gradle, Postman, JIRA, ServiceNow</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">Testing & Quality</div>
+                    <div class="skill-list">JUnit, Mockito, Spock, SonarQube, Coverity</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">Architecture & Practices</div>
+                    <div class="skill-list">Distributed Systems, Event-Driven Architecture, System Design, Agile/Scrum</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leadership Section -->
+        <section id="leadership">
+            <h2>Leadership & Architecture Highlights</h2>
+            
+            <div class="experience-item">
+                <h3>Leadership & Management</h3>
+                <ul>
+                    <li>Led and mentored engineering teams of 5–10 developers across multiple projects and releases</li>
+                    <li>Owned sprint planning, backlog grooming, and release management using Agile methodologies</li>
+                    <li>Defined system architecture and technology stack decisions</li>
+                    <li>Conducted code reviews and enforced best practices, improving code quality and reducing defects</li>
+                    <li>Collaborated with product managers and stakeholders to align technical solutions with business needs</li>
+                    <li>Managed CI/CD pipelines and release processes, ensured reliable deployments across QA, staging, and production environments</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>System Design & Architecture</h3>
+                <ul>
+                    <li>Designed event-driven microservices architecture using Apache Kafka for high throughput systems</li>
+                    <li>Built scalable multi-threaded processing systems handling 1000+ transactions/sec</li>
+                    <li>Architected GraphQL-based API layers for flexible and efficient data access</li>
+                    <li>Designed effective-dated and bi-temporal data models for complex business requirements</li>
+                    <li>Implemented horizontally scalable systems on Kubernetes and cloud infrastructure</li>
+                </ul>
             </div>
         </section>
 
@@ -229,13 +295,13 @@
             <h2>Education</h2>
             
             <div class="education-item">
-                <h3>MSc – Information and Communication Technology</h3>
+                <h3>Master of Science (M.Sc.) in Information and Communication Technology</h3>
                 <div class="school"><a href="https://www.daiict.ac.in/" target="_blank">DA-IICT - Dhirubhai Ambani Institute of Information and Communication Technology</a>, India</div>
                 <div class="date">2008 - 2010</div>
             </div>
             
             <div class="education-item">
-                <h3>Bachelor of Computer Applications</h3>
+                <h3>Bachelor of Computer Applications (BCA)</h3>
                 <div class="school"><a href="https://somlalitcollege.org/" target="_blank">Som-Lalit Institute of computer Application</a>, India</div>
                 <div class="date">2005 - 2008</div>
             </div>
@@ -264,33 +330,7 @@
             </div>
         </section>
 
-        <!-- Leadership Section -->
-        <section id="leadership">
-            <h2>Leadership & Architecture Highlights</h2>
-            
-            <div class="experience-item">
-                <h3>Leadership & Management</h3>
-                <ul>
-                    <li>Led and mentored engineering teams of 5–10 developers across multiple projects and releases</li>
-                    <li>Owned sprint planning, backlog grooming, and release management using Agile methodologies</li>
-                    <li>Defined system architecture and technology stack decisions</li>
-                    <li>Conducted code reviews and enforced best practices, improving code quality and reducing defects</li>
-                    <li>Collaborated with product managers and stakeholders to align technical solutions with business needs</li>
-                    <li>Managed CI/CD pipelines and release processes, ensured reliable deployments across QA, staging, and production environments</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <h3>System Design & Architecture</h3>
-                <ul>
-                    <li>Designed event-driven microservices architecture using Apache Kafka for high throughput systems</li>
-                    <li>Built scalable multi-threaded processing systems handling 1000+ transactions/sec</li>
-                    <li>Architected GraphQL-based API layers for flexible and efficient data access</li>
-                    <li>Designed effective-dated and bi-temporal data models for complex business requirements</li>
-                    <li>Implemented horizontally scalable systems on Kubernetes and cloud infrastructure</li>
-                </ul>
-            </div>
-        </section>
+        
 
         <!-- Contact Section -->
         <section id="contact">

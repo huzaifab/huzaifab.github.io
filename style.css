@@ -59,6 +59,29 @@
             color: var(--accent-color);
         }
 
+        nav ul li.nav-download {
+            margin-left: auto;
+            margin-right: 15px;
+        }
+
+        nav ul li.nav-download a {
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav ul li.nav-linkedin {
+            margin-right: 20px;
+        }
+
+        nav ul li.nav-linkedin a {
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
         /* Hero Section */
         .hero {
             background: linear-gradient(135deg, var(--primary-color) 0%, #1a252f 100%);
@@ -271,23 +294,29 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
         }
 
-        .skill-item {
-            font-size: 0.95em;
-            color: #333;
-            line-height: 1.8;
-            padding: 8px 0;
+        .skill-row {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 20px;
+            padding: 12px 0;
             border-bottom: 1px solid #f0f0f0;
+            align-items: start;
         }
 
-        .skill-item:last-child {
+        .skill-row:last-child {
             border-bottom: none;
         }
 
-        .skill-item strong {
-            color: var(--primary-color);
+        .skill-category {
             font-weight: 600;
-            min-width: 140px;
-            display: inline-block;
+            color: var(--primary-color);
+            font-size: 0.95em;
+        }
+
+        .skill-list {
+            color: #333;
+            font-size: 0.95em;
+            line-height: 1.6;
         }
 
         /* Skills Grid */
